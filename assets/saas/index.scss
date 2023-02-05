@@ -63,6 +63,8 @@ font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;    
+ 
 
 button{
 background-color: transparent;
@@ -90,8 +92,84 @@ border-color:orange ;
       }
       
     }
-}
+    .constractions{
+      text-align: center;
+      margin-top: 100px;
+   
+ 
+    .card {
+   
+     width: 180%;
+     height: 300px;
+      display: inline-block;
+      margin-top: 70px;
+      .picture{
+      
+        width: 120%;
+        background-size: cover;
+        height: 299px;
+   
+   
+       
+      }
+   
+  
+      .card-body{
+        box-sizing: border-box;
+        padding: 49px;
+        text-align: start;
+     
+      }
 
-// *{
-//     border:1px solid pink;
-// }
+     
+    }
+    .body1{
+      display: flex;
+      justify-content: space-between;
+      margin-right: 200px;
+  
+   
+    }
+    .body2{
+      display: flex;
+      justify-content: space-between;
+      margin-right: 200px;
+  
+   
+    }
+    
+   
+    }
+    .projects{
+      .text{
+        text-align: center;
+        margin-top: 100px;
+      }
+      .items{
+   transition: 1s;
+        ul{
+          list-style: none;
+          display: flex;
+          justify-content: center;
+          gap: 40px;
+          margin-top: 40px;
+          
+          a{
+            text-decoration: none;
+            color: black;
+          
+          }
+        
+        }
+      
+        
+      }
+      .items:hover{
+        color: orange;
+        transition: 1s;
+      }
+     
+  
+    }
+   
+}

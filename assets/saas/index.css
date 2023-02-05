@@ -34,6 +34,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 #main .image button {
   background-color: transparent;
@@ -56,4 +57,56 @@
   width: 10%;
   background-color: orange;
   margin: 10px 0px;
+}
+#main .constractions {
+  text-align: center;
+  margin-top: 100px;
+}
+#main .constractions .card {
+  width: 180%;
+  height: 300px;
+  display: inline-block;
+  margin-top: 70px;
+}
+#main .constractions .card .picture {
+  width: 120%;
+  background-size: cover;
+  height: 299px;
+}
+#main .constractions .card .card-body {
+  box-sizing: border-box;
+  padding: 49px;
+  text-align: start;
+}
+#main .constractions .body1 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 200px;
+}
+#main .constractions .body2 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 200px;
+}
+#main .projects .text {
+  text-align: center;
+  margin-top: 100px;
+}
+#main .projects .items {
+  transition: 1s;
+}
+#main .projects .items ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+#main .projects .items ul a {
+  text-decoration: none;
+  color: black;
+}
+#main .projects .items:hover {
+  color: orange;
+  transition: 1s;
 }/*# sourceMappingURL=index.css.map */
